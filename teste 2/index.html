@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Voce gosta de jogar bola</legend>
+        <div>
+            <input type="radio" name="yesno" id="iyesno">
+            <label for="iyesno">Sim</label>
+            <input type="radio" name="yesno" id="inoyes">
+            <label for="inoyes">Não</label>
+        </div>
+    </fieldset>
+    <div>
+        <label for="iidade">Quantos anos você tem?</label> <br>
+        <input type="number" name="idade" id="iidade" max="120" min="12" required value="12">
+    </div>
+    <div>
+        <label for="ifruta">Qual sua fruta favorita?</label> <br>
+        <input type="text" name="fruta" id="ifruta" list="l1" required pattern="[Bb]anana|[Mm]aç[aã]|[Mm]orango|[Aa]bacaxi"/>
+        <datalist  id="l1">
+            <option>Banana</option>
+            <option>Maçã</option>
+            <option>Morango</option>
+            <option>Abacaxi</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="iemail">Qual o seu email?</label><br>
+        <input type="email" name="email" id="iemail">
+    </div>
+    <div>
+        <label for="itext">Deixe uma pequena mensagem</label><br>
+        <textarea name="text" id="itext" cols="27" rows="10" maxlength="200"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+    </form>
+</body>
+</html>
