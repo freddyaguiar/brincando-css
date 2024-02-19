@@ -91,8 +91,16 @@
 }
 .select{
     width: 100%;
-    
     padding-left: 25px;
+    color: rgb(179, 179, 179);
+}
+.select > a{
+    display: flex;
+    justify-content: right;
+    width: 120px;
+    color: white;
+}
+.select > a:hover{
     color: rgb(179, 179, 179);
 }
 .btn{
@@ -109,6 +117,12 @@
     font-weight: 900;
     cursor: pointer;
     font-size: 18px;
-    box-shadow: 0px 10px  40px -12px rgba(101, 231, 188, 0.301);
+    box-shadow: 0px 10px  40px -12px rgba(101, 231, 188, 0.425);
+}
+.btn:hover{
+    background-color: #4a5b64;
+    color: rgb(81, 202, 162);
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 10px  40px -12px rgba(0, 0, 0, 0.425);
 }
 
